@@ -10,4 +10,4 @@ const numberOfInvFields = e => {
 }
 
 //Make the buttons do stuff
-document.querySelector('button').addEventListener('click',numberOfInvFields)
+document.querySelector('#smButton').addEventListener('click',numberOfInvFields)
