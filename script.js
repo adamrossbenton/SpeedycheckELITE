@@ -1,9 +1,9 @@
 //Function to add number of investigator name fields (first, middle, last, suffix) based on button pushed
 const numberOfInvFields = e => {
     let invNumber = e.target.value;
-    const addFields = document.createElement('p');
-        addFields.innerText = `${invNumber}`;
     for (let n = 0; n < invNumber; n++) {
+        const addFields = document.createElement('p');
+            addFields.innerText = `${invNumber}`;
         document.querySelector('body').append(addFields);
     }
 }
