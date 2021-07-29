@@ -12,3 +12,7 @@ input {
     padding: 5px;
     /*border: 20px;*/
 }
+
+.fieldColumn {
+    max-width: 500px
+}
