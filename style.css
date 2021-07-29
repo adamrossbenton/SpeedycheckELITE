@@ -7,5 +7,5 @@ body {
     font-weight: bold;
 }
 input {
-    display: inline-block;
+    display: block;
 }
