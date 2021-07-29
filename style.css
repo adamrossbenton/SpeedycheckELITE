@@ -19,6 +19,8 @@ button {
 }
 
 #fieldsGoHere {
+    display: block;
     text-align: center;
+    Margin: 0 auto;
     max-width: 750px
 }
