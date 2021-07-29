@@ -8,4 +8,6 @@ body {
 }
 input {
     display: block;
+    text-align: center;
+    padding: 5px;
 }
