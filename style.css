@@ -13,6 +13,10 @@ input {
     /*border: 20px;*/
 }
 
+div {
+    text-align: center;
+}
+
 #fieldColumn {
     max-width: 750px
 }
