@@ -39,11 +39,11 @@ const submitButton = () => {
 }
 
 //Make the buttons do stuff
-document.querySelector('#smButton').addEventListener('click',numberOfInvFields);
-document.querySelector('#medButton').addEventListener('click',numberOfInvFields);
-document.querySelector('#lgButton').addEventListener('click',numberOfInvFields);
-document.querySelector('#hugeButton').addEventListener('click',numberOfInvFields);
 document.querySelector('#smButton').addEventListener('click',submitButton);
 document.querySelector('#medButton').addEventListener('click',submitButton);
 document.querySelector('#lgButton').addEventListener('click',submitButton);
 document.querySelector('#hugeButton').addEventListener('click',submitButton);
+document.querySelector('#smButton').addEventListener('click',numberOfInvFields);
+document.querySelector('#medButton').addEventListener('click',numberOfInvFields);
+document.querySelector('#lgButton').addEventListener('click',numberOfInvFields);
+document.querySelector('#hugeButton').addEventListener('click',numberOfInvFields);
