@@ -1,4 +1,5 @@
 //Function to add number of investigator name fields (first, middle, last, suffix) based on button pushed
+//Will I want to use a form element for this?
 const numberOfInvFields = e => {
     let invNumber = e.target.value;
     /*const addText = document.createElement('p');
@@ -17,6 +18,25 @@ const numberOfInvFields = e => {
     }
 }
 //Will need to add submit button as separate function maybe?
+const submitButton = () => {
+    //keep this in case the if part doesn't work
+    /*const buttonExists = document.getElementById("checkButton");
+    const addButton = document.createElement('input');
+        addButton.setAttribute('type','submit');
+        addButton.setAttribute('class','checkButton');*/
+    if (document.body.contains('.checkButton')) {
+        const rmButton = document.querySelector('.checkButton');
+        const repButton = document.createElement('input');
+            addButton.setAttribute('type','submit');
+            addButton.setAttribute('class','checkButton');
+        rmButton.parentNode.replaceChild(repButton,rmButton);
+    } else {
+        const addButton = document.querySelector('.checkButton');
+            addButton.setAttribute('type','submit');
+            addButton.setAttribute('class','checkButton');
+        document.querySelector('#fieldsGoHere').prepend(addButton);
+    }
+}
 
 //Make the buttons do stuff
 document.querySelector('#smButton').addEventListener('click',numberOfInvFields);
