@@ -9,5 +9,6 @@ body {
 input {
     display: block;
     margin: 0 auto;
+    padding: 5px;
     /*border: 20px;*/
 }
