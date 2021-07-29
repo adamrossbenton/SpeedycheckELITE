@@ -17,6 +17,7 @@ const numberOfInvFields = e => {
         document.querySelector('#fieldsGoHere').append(addFirst);
         document.querySelector('#fieldsGoHere').append(addMid);
         document.querySelector('#fieldsGoHere').append(addLast);
+        document.querySelector('#fieldsGoHere').append(addButton);
     }
 }
 
