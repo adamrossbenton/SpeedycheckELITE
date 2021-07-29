@@ -16,3 +16,7 @@ input {
 #fieldColumn {
     max-width: 750px
 }
+
+#buttonSection {
+    max-width: 300px;
+}
