@@ -31,7 +31,7 @@ const submitButton = () => {
             addButton.setAttribute('class','checkButton');
         rmButton.parentNode.replaceChild(repButton,rmButton);
     } else {
-        const addButton = document.createElement('input');
+        const addButton = document.createElement('INPUT');
             addButton.setAttribute('type','submit');
             addButton.setAttribute('class','checkButton');
         document.querySelector('#fieldsGoHere').append(addButton);
