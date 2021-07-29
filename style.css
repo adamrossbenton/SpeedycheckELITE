@@ -6,9 +6,9 @@ body {
     text-decoration: underline;
     font-weight: bold;
 }
-input {
+button {
     text-align: center;
-    padding: 50px;
+    padding: 5px;
     /*border: 20px;*/
 }
 
