@@ -7,7 +7,6 @@ body {
     font-weight: bold;
 }
 input {
-    display: inline-block;
     text-align: center;
     padding: 5px;
     /*border: 20px;*/
