@@ -6,7 +6,7 @@ body {
     text-decoration: underline;
     font-weight: bold;
 }
-button {
+input {
     display: inline-block;
     text-align: center;
     padding: 5px;
