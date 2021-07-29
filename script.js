@@ -3,6 +3,7 @@ const numberOfInvFields = e => {
     let invNumber = e.target.value;
     const addFields = document.createElement('p');
         addFields.innerText = `${invNumber}`;
+    document.querySelector('body').append(addFields);
     /*let i = 1;
     while (i < invNumber) {
 
