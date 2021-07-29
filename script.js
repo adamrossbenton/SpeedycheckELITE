@@ -12,8 +12,8 @@ const numberOfInvFields = e => {
         const addLast = document.createElement('INPUT');
             addLast.placeholder = "Last";
         document.querySelector('#fieldsGoHere').append(addFirst);
-        document.querySelector('fieldsGoHere').append(addMid);
-        document.querySelector('fieldsGoHere').append(addLast);
+        document.querySelector('#fieldsGoHere').append(addMid);
+        document.querySelector('#fieldsGoHere').append(addLast);
     }
 }
 
