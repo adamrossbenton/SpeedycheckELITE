@@ -1,9 +1,12 @@
 //Function to add number of investigator name fields (first, middle, last, suffix) based on button pushed
 const numberOfInvFields = e => {
     let invNumber = e.target.value;
+    let i = 0;
     const addFields = document.createElement('p');
         addFields.innerText = `${invNumber}`;
-    document.body.append(addFields);
+    while (i < invNumber) {
+        document.body.append(addFields);
+    }
 //Trying to remove old added elements so they don't keep stacking if button pushed more than once
     const el = document.getElementsByClassName('newField');
         el.remove();
