@@ -34,7 +34,7 @@ const submitButton = () => {
         const addButton = document.createElement('input');
             addButton.setAttribute('type','submit');
             addButton.setAttribute('class','checkButton');
-        document.querySelector('#fieldsGoHere').prepend(addButton);
+        document.querySelector('#fieldsGoHere').append(addButton);
     }
 }
 
