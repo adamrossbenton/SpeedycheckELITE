@@ -6,6 +6,7 @@ const numberOfInvFields = e => {
         addFields.innerText = `${invNumber}`;
     while (i < invNumber) {
         document.body.append(addFields);
+        i++;
     }
 //Trying to remove old added elements so they don't keep stacking if button pushed more than once
     const el = document.getElementsByClassName('newField');
