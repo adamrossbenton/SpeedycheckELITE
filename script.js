@@ -2,9 +2,15 @@
 const numberOfInvFields = e => {
     let invNumber = e.target.value;
     for (let n = 0; n < invNumber; n++) {
-        const addFields = document.createElement('INPUT');
-            addFields.placeholder = "First";
-        document.querySelector('body').append(addFields);
+        const addFirst = document.createElement('INPUT');
+            addFirst.placeholder = "First";
+        const addMid = document.createElement('INPUT');
+            addMid.placeholder = "Middle";
+        const addLast = document.createElement('INPUT');
+            addLast.placeholder = "Last";
+        document.querySelector('body').append(addFirst);
+        document.querySelector('body').append(addMid);
+        document.querySelector('body').append(addLast);
     }
 }
 
