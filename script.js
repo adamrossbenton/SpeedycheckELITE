@@ -3,7 +3,7 @@ const numberOfInvFields = e => {
     let invNumber = e.target.value;
     for (let n = 0; n < invNumber; n++) {
         const addText = document.createElement('p');
-            addText.innerText = `Inv no. ${n}`;
+            addText.innerText = `Inv no. ${n+1}`;
         const addFirst = document.createElement('INPUT');
             addFirst.placeholder = "First";
         const addMid = document.createElement('INPUT');
