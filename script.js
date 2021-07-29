@@ -11,6 +11,9 @@ const numberOfInvFields = e => {
             addMid.placeholder = "Middle";
         const addLast = document.createElement('INPUT');
             addLast.placeholder = "Last";
+        const addButton = document.createElement('input');
+            addButton.setAttribute('type','submit');
+            addButton.setAttribute('value','Run Background Check');
         document.querySelector('#fieldsGoHere').append(addFirst);
         document.querySelector('#fieldsGoHere').append(addMid);
         document.querySelector('#fieldsGoHere').append(addLast);
