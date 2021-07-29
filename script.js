@@ -24,16 +24,16 @@ const submitButton = () => {
     const addButton = document.createElement('input');
         addButton.setAttribute('type','submit');
         addButton.setAttribute('class','checkButton');*/
-    if (document.body.contains('.checkButton')) {
+    if (document.body.contains('#checkButton')) {
         const rmButton = document.querySelector('.checkButton');
         const repButton = document.createElement('input');
             addButton.setAttribute('type','submit');
-            addButton.setAttribute('class','checkButton');
+            addButton.setAttribute('id','checkButton');
         rmButton.parentNode.replaceChild(repButton,rmButton);
     } else {
         const addButton = document.createElement('INPUT');
             addButton.setAttribute('type','submit');
-            addButton.setAttribute('class','checkButton');
+            addButton.setAttribute('id','checkButton');
         document.querySelector('#fieldsGoHere').append(addButton);
     }
 }
