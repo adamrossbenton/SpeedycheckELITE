@@ -8,13 +8,6 @@ const numberOfInvFields = e => {
         document.body.append(addFields);
         i++;
     }
-//Trying to remove old added elements so they don't keep stacking if button pushed more than once
-    const el = document.getElementsByClassName('newField');
-        el.remove();
-    /*let i = 1;
-    while (i < invNumber) {
-
-    }*/
 }
 
 //Make the buttons do stuff
