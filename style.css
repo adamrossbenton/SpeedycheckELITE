@@ -6,3 +6,6 @@ body {
     text-decoration: underline;
     font-weight: bold;
 }
+input {
+    display: inline-block;
+}
