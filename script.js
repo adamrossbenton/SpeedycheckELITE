@@ -3,6 +3,7 @@ const numberOfInvFields = e => {
     let invNumber = e.target.value;
     const addText = document.createElement('p');
         addText.innerText = "Enter the investigator names in the fields below:";
+    document.querySelector('body').append(addText)
     for (let n = 0; n < invNumber; n++) {
         const addFirst = document.createElement('INPUT');
             addFirst.placeholder = "First";
