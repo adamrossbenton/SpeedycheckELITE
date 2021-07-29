@@ -3,7 +3,6 @@ const numberOfInvFields = e => {
     let invNumber = e.target.value;
     const addFields = document.createElement('p');
         addFields.innerText = `${invNumber}`;
-        addFields.className = 'newField';
     document.body.append(addFields);
 //Trying to remove old added elements so they don't keep stacking if button pushed more than once
     const el = document.getElementsByClassName('newField');
